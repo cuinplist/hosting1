@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Form.css">
+</head>
+<body>
+  <div id="contenedor">
+    <form method="get">
+        <p>
+        <label for="nombre">Nombre</label><br><br>
+        <input type="text" id="nombre" name="nombre" autofocus required placeholder="Proporcioe tu nombre"> 
+        </p>
+        <p>
+        <label for="apellido">Apellido</label><br><br>
+        <input type="text" id="apellido" size="40"  required placeholder="Priporcione su apellido" name="apellido">
+        </p>
+
+        <p>
+            <label for="contraseña">Su contraseña</label><br><br>
+            <input type="password" id="contraseña" name="contraseña" required placeholder="Ejemplo:Antinio#">
+        </p>
+
+        <p>
+            <input type="submit" name="enviar" value="Enviar">
+        </p>
+        <p>
+            <label for="estatus">Estatus</label><br><br>
+            <input type="text" id="nombre" name="estatus" value="activo" readonly  title=" Este valor solo de lectzura "> 
+            </p>
+
+            <p>
+                <input type="hidden"  name="nip" value="875">
+            </p>
+            <p>
+                <label for="navegador">Navegador Favorito</label>
+                <select id=" navegador" name="navegador" required>
+                    <option value="opera">Opera</option>
+                    <option value="Edge">Edge</option>
+                    <option value="safari">safari</option>
+                    <option value="fire fox">fire fox</option>
+                </select>
+
+            </p>
+
+        
+    </form>
+
+
+  </div>
+    
+</body>
+</html>
